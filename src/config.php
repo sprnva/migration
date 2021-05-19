@@ -12,9 +12,6 @@ return [
     ],
 
     'app' => [
-        'base_url' => 'sprnva',
-        'name' => 'SPRNVA',
-
         // choices: windows, macOS, linux
         'os' => 'macOS',
     ]
