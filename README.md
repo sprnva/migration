@@ -4,3 +4,7 @@
 &mdash; Laravel
 
 ![image](https://user-images.githubusercontent.com/37282871/118764554-46ffff80-b8ac-11eb-9082-b2df72238ad4.png)
+
+# CONFIGURATION
+- update the config.php and set the connection to your database
+- point your mysql_path to your mysql/bin folder
