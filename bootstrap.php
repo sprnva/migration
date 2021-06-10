@@ -1,6 +1,6 @@
 <?php
 
-$config_file = 'config.php';
+$config_file = __DIR__ . '/config.php';
 if (!file_exists($config_file)) {
   die("The [migration/config.php] not found.");
 }
