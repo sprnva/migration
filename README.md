@@ -9,6 +9,7 @@
 Migration is your database version control when collaborating with teams or for yourself. This will help you or your team to get the latest database update as possible. With a user interface, migration is easy to use. You can include this to any projects and start versioning your database development.
 
 ### CONFIGURATION
+- copy and paste config.example then rename it as config.php
 - update the config.php and set the connection to your database
 - point your mysql_path to your mysql/bin folder
 
