@@ -1,5 +1,10 @@
 <?php
 
+$config_file = 'config.php';
+if (!file_exists($config_file)) {
+  die("The [migration/config.php] not found.");
+}
+
 // CLASS AUTO LOADER
 spl_autoload_register(function ($class) {
 
