@@ -4,13 +4,13 @@
 spl_autoload_register(function ($class) {
 
   $classes = [
-    "Connection" => "Connection.php",
-    "QueryBuilder" => "QueryBuilder.php",
-    "Migration" => "Migration.php",
-    "Migrator" => "Migrator.php",
-    "MigrationRepository" => "Repository.php",
-    "SchemaFactory" => "SchemaFactory.php",
-    "App" => "App.php"
+    "Connection" => "system/Connection.php",
+    "QueryBuilder" => "system/QueryBuilder.php",
+    "Migration" => "system/Migration.php",
+    "Migrator" => "system/Migrator.php",
+    "MigrationRepository" => "system/Repository.php",
+    "SchemaFactory" => "system/SchemaFactory.php",
+    "App" => "system/App.php"
   ];
 
   if (array_key_exists($class, $classes)) {

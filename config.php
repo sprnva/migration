@@ -12,7 +12,8 @@ return [
     ],
 
     'app' => [
-        // choices: windows, macOS, linux
-        'os' => 'macOS',
+        // for more flexible database migration please indicate 
+        // the path of mysql in your machine including the trailing slashes.
+        'mysql_path' => 'C:\\xampp8\\mysql\\bin\\',
     ]
 ];
